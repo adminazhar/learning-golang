@@ -22,4 +22,6 @@ func main() {
 	// replaceall, same as replace but dont need how many times
 	fmt.Println(strings.ReplaceAll(quote, "hello", "yo"))
 
+	// ToLower, lowercase the string
+	fmt.Println(strings.ToLower(quote))
 }
