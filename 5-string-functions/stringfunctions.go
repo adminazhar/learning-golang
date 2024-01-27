@@ -15,4 +15,11 @@ func main() {
 
 	// check index positionn
 	fmt.Println(strings.Index(quote, "o"))
+
+	// replace, returns a copy, find and replace
+	fmt.Println(strings.Replace(quote, "hello", "hi", 1))
+
+	// replaceall, same as replace but dont need how many times
+	fmt.Println(strings.ReplaceAll(quote, "hello", "yo"))
+
 }
