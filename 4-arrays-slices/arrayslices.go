@@ -35,4 +35,23 @@ func main() {
 	// count length
 	println(len(commonarr))
 
+	/** Slicing */
+	arr6 := [8]int{11, 15, 19, 23, 29, 34, 40, 55}
+	// slice array, 1st element to 3rd element including
+	newslicedarr := arr6[1:4]
+	fmt.Println("Length:", len(arr6))
+	fmt.Println("Array :", arr6)
+	fmt.Println("Sliced:", newslicedarr)
+
+	// slice array, 4th and after 4th element
+	newslicedarr2 := arr6[4:]
+	fmt.Println("Length:", len(arr6))
+	fmt.Println("Array :", arr6)
+	fmt.Println("Sliced:", newslicedarr2)
+
+	// append, it makes a copy of new array, so we have to assign it
+	arr7 := []int{5, 6, 7}
+	arr8 := append(arr7, 8)
+	fmt.Println(arr8)
+
 }
