@@ -21,7 +21,7 @@ func main() {
 	arr4 := [2]string{"batman", "robin"}
 	fmt.Println(arr4)
 
-	// length is infered, compiler decides the length based on values
+	// slice, uses array under the hood, dynamic length, length is infered, compiler decides the length based on values
 	arr5 := []int{18, 19, 20}
 	fmt.Println(arr5)
 
