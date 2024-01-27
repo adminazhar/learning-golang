@@ -24,4 +24,7 @@ func main() {
 
 	// ToLower, lowercase the string
 	fmt.Println(strings.ToLower(quote))
+
+	// ToUpper, uppercase the string
+	fmt.Println(strings.ToUpper(quote))
 }
